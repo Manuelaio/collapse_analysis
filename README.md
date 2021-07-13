@@ -4,7 +4,7 @@
 
 1. Run quack pipeline. Redas were aligned to hg19 reference geneme using BWA and SNPs and indels were called according to GATK best Pratics reccomandation.
 2. Run pipeline_rabdomyzer.sh. gVCF file were analyzed and annotated using VEP 
-3. Genes in cases and controls were selected using Rscript with following filters:
+3. Genes in cases and controls were selected using Rscript [select_genes.R](https://github.com/Manuelaio/collapse_analysis/blob/main/select_genes.R) with following filters:
       - FILTER =PASS
       - AC =< 1 
       - CADD > 20
