@@ -12,4 +12,5 @@
       - Consequence: missense, stop gained, stop lost, splice
       
 4. Genes with strong quality difference in cases and controls cohort was excluded  usig Rscript [coverage_analysis.R](https://github.com/Manuelaio/collapse_analysis/blob/main/coverage_analysis.R)
-5. Two suitables genes lists were prepared with [make_genes_list.R](https://github.com/Manuelaio/collapse_analysis/blob/main/make_genes_list.R)
+5. Two suitables genes lists were prepared with [make_genes_list.R](https://github.com/Manuelaio/collapse_analysis/blob/main/make_genes_list.R) and uploaded on [Toppgene](https://toppgene.cchmc.org) for enrichment analysis 
+6. Analysis of cases and controls enrichment analysis was made with  
