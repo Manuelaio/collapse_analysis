@@ -10,4 +10,6 @@
       - CADD > 20
       - gnomAD_genomes_AC and gnomAD_exomes_AC <=1 or not present 
       - Consequence: missense, stop gained, stop lost, splice
+      
 4. Genes with strong quality difference in cases and controls cohort was excluded  usig Rscript [coverage_analysis.R](https://github.com/Manuelaio/collapse_analysis/blob/main/coverage_analysis.R)
+5. Two suitables genes lists were prepared with 
